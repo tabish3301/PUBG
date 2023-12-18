@@ -377,7 +377,7 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100067945261995', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
-os.system("xdg-open https://chat.whatsapp.com/HjhnmgIeHtq9LhpH4xhCkM")
+os.system("xdg-open https://chat.whatsapp.com/J54ds3VTt2292ZaT4vYoJq")
 logo = ("""\033[1;32m
 \033[1;97m----------------------------------------------\033[1;97m
 \033[0;37m   _____ _____ _____ _____ 
@@ -390,8 +390,8 @@ logo = ("""\033[1;32m
   \033[1;37m[√] Auther    : \033[1;37mCH Tabish
   \033[1;37m[√] YouTube   : \033[1;37mCHAUDHARY TABISH
   \033[1;37m[√] Status    : \033[1;37mPaired 
-  \033[1;37m[√] Admin     : \033[1;37mMr Shafaqat
-  \033[0;97m[√] 𝙑𝙀𝙍𝙎i𝙊𝙉   :\033[1;31m A.120 
+  \033[1;37m[√] Admin     : \033[1;37mMr SHAFAQAT
+  \033[0;97m[√] 𝙑𝙀𝙍𝙎i𝙊𝙉   :\033[1;31m A.125
 \033[1;97m----------------------------------------------\033[1;37m""")
 
 class Main:
